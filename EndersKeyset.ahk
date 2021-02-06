@@ -1,1 +1,1 @@
-LAlt & RControl::Click, Right
+LAlt & RAlt::Click, Right
