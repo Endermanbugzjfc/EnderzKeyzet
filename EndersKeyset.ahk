@@ -3,14 +3,13 @@
 
 [AHK2EXE]
 Exe_File=%In_Dir%\EndersKeyset.exe
-Compression=0
+Compression=2
 [VERSION]
 Set_Version_Info=1
-Company_Name=
-File_Version=0.1.0.0
+File_Version=0.1.1.0
 Inc_File_Version=0
 Internal_Name=EndersKeyset
-Original_Filename=EndersKeyset
+Original_Filename=EndersKeyset.ahk
 Product_Version=1.1.33.2
 Set_AHK_Version=1
 Language_ID=31
@@ -23,6 +22,7 @@ Icon_5=%In_Dir%\image\Suspend_Pause.ico
 
 * * * Compile_AHK SETTINGS END * * *
 */
+
 ~Alt::
 	;https://www.autohotkey.com/boards/viewtopic.php?t=10067
     KeyWait, Alt
