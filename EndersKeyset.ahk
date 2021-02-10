@@ -1,7 +1,7 @@
 LAlt & RAlt::Click, Right
 
-~LAlt & ~Up::WheelUp
-~LAlt & ~Down::WheelDown
+~Alt & .::WheelUp
+~Alt & Control::WheelDown
 
 ~LAlt & ~Left:: Send, {LControl}{-}
 ~LAlt & ~Right:: Send, {LControl}{+}
