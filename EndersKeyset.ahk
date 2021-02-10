@@ -10,9 +10,6 @@ Return
 ~Alt & .::WheelUp
 ~Alt & Control::WheelDown
 
-~LAlt & ~Left:: Send, {LControl}{-}
-~LAlt & ~Right:: Send, {LControl}{+}
-
 ~Alt & ~/::
 	MouseGetPos, x, y
 	Send, {LWin Down}b{LWin Up}
