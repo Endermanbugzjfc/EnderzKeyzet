@@ -6,7 +6,7 @@ Exe_File=%In_Dir%\EndersKeyset.exe
 Compression=2
 [VERSION]
 Set_Version_Info=1
-File_Version=0.1.1.0
+File_Version=0.1.1.1
 Inc_File_Version=0
 Internal_Name=EndersKeyset
 Original_Filename=EndersKeyset.ahk
@@ -22,6 +22,7 @@ Icon_5=%In_Dir%\image\Suspend_Pause.ico
 
 * * * Compile_AHK SETTINGS END * * *
 */
+
 #MaxHotkeysPerInterval 9223372036854775807
 ;AHK max int
 
