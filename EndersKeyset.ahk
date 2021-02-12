@@ -22,6 +22,8 @@ Icon_5=%In_Dir%\image\Suspend_Pause.ico
 
 * * * Compile_AHK SETTINGS END * * *
 */
+#MaxHotkeysPerInterval 9223372036854775807
+;AHK max int
 
 ~Alt::
 	;https://www.autohotkey.com/boards/viewtopic.php?t=10067
