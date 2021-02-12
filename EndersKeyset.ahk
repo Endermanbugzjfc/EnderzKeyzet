@@ -1,3 +1,6 @@
+#MaxHotkeysPerInterval 9223372036854775807
+;AHK max int
+
 ~Alt::
 	;https://www.autohotkey.com/boards/viewtopic.php?t=10067
     KeyWait, Alt
