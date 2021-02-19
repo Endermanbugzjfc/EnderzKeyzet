@@ -21,3 +21,13 @@ Return
 	Click
 	MouseMove, %x%, %y%
 Return
+
+~Alt & ~F6::
+	if (%lock% == true) {
+		lock = false
+		BlockInput, MouseMoveOff
+	} else {
+		lock = true
+		BlockInput, MouseMove
+	}
+Return
