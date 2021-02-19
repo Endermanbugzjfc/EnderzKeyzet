@@ -12,6 +12,8 @@ Return
 
 ~Alt & .::WheelUp
 ~Alt & Control::WheelDown
+~Alt & [::WheelLeft
+~Alt & ]::WheelRight
 
 ~Alt & ~/::
 	MouseGetPos, x, y
