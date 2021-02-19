@@ -39,4 +39,5 @@ Return
 Return
 
 ;Turn off monitor
+;https://www.reddit.com/r/AutoHotkey/comments/et5umu/any_way_to_turn_off_my_monitor_with_autohotkey/
 ~Alt & ~F11::SendMessage,0x112,0xF170,2,,Program Manager
