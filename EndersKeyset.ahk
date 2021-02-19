@@ -37,6 +37,8 @@ Return
 
 ~Alt & .::WheelUp
 ~Alt & Control::WheelDown
+~Alt & [::WheelLeft
+~Alt & ]::WheelRight
 
 ~Alt & ~/::
 	MouseGetPos, x, y
@@ -45,4 +47,14 @@ Return
 	MouseMove, 1900, 989
 	Click
 	MouseMove, %x%, %y%
+Return
+
+~Alt & ~F6::
+	if (%lock% == true) {
+		lock = false
+		BlockInput, MouseMoveOff
+	} else {
+		lock = true
+		BlockInput, MouseMove
+	}
 Return
