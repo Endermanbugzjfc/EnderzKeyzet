@@ -1,6 +1,6 @@
-#MaxHotkeysPerInterval 9223372036854775807
-;AHK max int
+#MaxHotkeysPerInterval 9223372036854775807 ;AHK max int
 
+;Right click
 ~Alt::
 	;https://www.autohotkey.com/boards/viewtopic.php?t=10067
     KeyWait, Alt
@@ -10,11 +10,14 @@
     }
 Return
 
+;Verticle scroll
 ~Alt & .::WheelUp
 ~Alt & Control::WheelDown
+;Horizontal scroll
 ~Alt & [::WheelLeft
 ~Alt & ]::WheelRight
 
+;Windows Action Center
 ~Alt & ~/::
 	MouseGetPos, x, y
 	Send, {LWin Down}b{LWin Up}
@@ -24,6 +27,7 @@ Return
 	MouseMove, %x%, %y%
 Return
 
+;Mouse lock
 ~Alt & ~F6::
 	if (%lock% == true) {
 		lock = false
@@ -33,4 +37,6 @@ Return
 		BlockInput, MouseMove
 	}
 Return
+
+;Turn off monitor
 ~Alt & ~F11::SendMessage,0x112,0xF170,2,,Program Manager
